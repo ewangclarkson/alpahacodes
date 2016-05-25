@@ -1,0 +1,23 @@
+style "widgets"
+{
+   
+   text[NORMAL]="#2951EF"
+
+  }
+
+ style "buttons"="widgets"
+ {
+     GtkButton::inner-border={5,5,5,5}
+      
+     
+ }
+ style "labels"="widgets"
+ {
+  
+  font_name= "sans regular 10"
+  }
+
+
+ class "GtkWidget" style "widgets"
+ class "Gtk*Button" style "buttons"
+ class "GtkLabel" style "labels"
